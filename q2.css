@@ -1,0 +1,32 @@
+.contact-list{
+    text-align:center;
+    box-sizing: border-box;
+    border:1px solid;
+    width:200px;
+    overflow-y: scroll;
+    height:300px;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap column;
+    flex-direction:column;
+    background-color: rgb(159, 212, 233);
+}
+.a{
+    list-style-type: none;
+    position:sticky;
+    top: 30px;  
+}
+.span, .b , .c , .d{
+    position:sticky;
+    top:0px;
+    text-align:left;
+    font-size:30px;
+    border:1px solid transparent;
+    background-color:rgb(183, 185, 56);
+}
+li{
+    text-align:left;
+    list-style-type: none;
+    padding-top: 40px;
+    font-weight: 400;
+}
